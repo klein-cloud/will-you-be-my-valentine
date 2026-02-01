@@ -1,44 +1,43 @@
 const answers_no = {
     english: [
         "No",
-        "Are you sure?",
-        "Are you really sure??",
-        "Are you really realy sure???",
-        "Think again?",
-        "Don't believe in second chances?",
-        "Why are you being so cold?",
-        "Maybe we can talk about it?",
-        "I am not going to ask again!",
-        "Ok now this is hurting my feelings!",
-        "You are now just being mean!",
+        "Tf!!",
+        "Son I'm crying son",
+        "Are being fr rn??!!",
+        "NIGGA!!!!",
+        "Pretty pleasee",
+        "Why tho?!",
+        "yoo that's crazyy",
+        "No again!!!!",
+        "Ok u ain't escaping me",
+        "That's harsh",
         "Why are you doing this to me?",
-        "Please give me a chance!",
-        "I am begging you to stop!",
-        "Ok, Let's just start over.."
+        "We'll eat icecream",
+        "Okay okay icecream and mutt bir",
+        "Rethink yo lyf decisions"
     ],
     bengali: [
         "Hutt",
-        "Tu es sûr ?",
-        "Tu es vraiment sûr ??",
-        "Tu es vraiment vraiment sûr ???",
-        "Réfléchis encore?",
-        "Tu ne crois pas aux deuxièmes chances ?",
-        "Pourquoi tu es si froid?",
-        "Peut-être, on peut en parler ?",
-        "Je ne vais pas demander encore une fois!",
-        "D'accord, maintenant ca me fait mal!",
-        "Tu es juste méchant!",
-        "Pourquoi tu me fais ça?",
-        "Donnez-moi une chance plz!",
-        "Je te supplie d'arrêter!",
-        "D'accord, recommençons.."
+        "Hell Noo Komla",
+        "Ajuba naa bolso kn?!",
+        "Areh pagol :(",
+        "khichke aso?!",
+        "Areh na kn?!",
+        "Ami ki korlam?!",
+        "Asaa solo ice khbo snowberry r",
+        "assa ice ar golbari r mutt",
+        "ekhono naa?!",
+        "Areh pleaseee",
+        "Ajuba korso Kom",
+        "Mann jao Ghugni-bhat man",
+        "Amare keliye niyo khon pore",
+        "Haa na bolle tomr mukti nai"
     ],
 };
 
 answers_yes = {
     "english": "Yes",
-    "french": "Oui",
-    "Thailand": "เย่ คืนดีกันแล้วน้า"
+    "bengali": "Haa rnd",
 }
 
 let language = "english"; // Default language is English
@@ -126,8 +125,8 @@ function changeLanguage() {
 
     // Update success message
     const successMessage = document.getElementById("success-message");
-    if (language === "french") {
-        successMessage.textContent = "Yepppie, à bientôt :3";
+    if (language === "bengali") {
+        successMessage.textContent = "Lesgooo tumi onk gula dark choc paba :3";
     } else if (language === "thai") {
         successMessage.textContent = "ฮูเร่ คืนดีกันแล้วน้า :3";
     } else {
